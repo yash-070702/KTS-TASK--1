@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    overflow: hidden;
+}
+.container {
+    background-color: rgb(72, 72, 238);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    height: 30px;
+
+}
+
+.box2 {
+    background-color: rgb(245, 245, 245);
+    margin: 32px;
+    width: 71vw;
+    border-radius: 260px 0px 0px 260px;
+}
+
+.box3 {
+    height: 47vh;
+    display: flex;
+    margin-top: 4vh;
+    margin-left: 7vw;
+    padding-left: 60px;
+}
+
+.right {
+    display: inline;
+}
+
+.right input {
+    display: flex;
+    height: 7vh;
+    width: 25vw;
+}
+
+.left {
+    display: inline;
+}
+
+.left input {
+    display: flex;
+    height: 7vh;
+    width: 25vw;
+}
+
+.box2 h1 {
+    height: 14vh;
+    text-align: center;
+    font-size: 6vh;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.switch {
+    margin-top: 15px;
+    margin-left: 685px;
+}
+
+.img {
+    height: 300px;
+}
+
+.box h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.box h3 {
+    text-align: center;
+    color: white;
+    margin-top: 3vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Login {
+    border-radius: 23px;
+    height: 5vh;
+    width: 6vw;
+    color: blue;
+    position: relative;
+    left: 10vw;
+    top: 15vh;
+}
+
+.Login a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.button1 {
+    text-align: end;
+    width: 65vw;
+    border-radius: 23px;
+
+}
+
+.img {
+    height: 30vh;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.buttons {
+    position: relative;
+    left: 50vw;
+}
+
+.button2:active {
+    background-color: white;
+}
